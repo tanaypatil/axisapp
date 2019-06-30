@@ -1,0 +1,106 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/appbar_below</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="customApp_Bar" parent="ThemeOverlay.AppCompat.Dark">
+
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="Team.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/tcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/tcolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Sponsor.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/scolorPrimary</item>
+        <item name="colorPrimaryDark">@color/scolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Events.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecolorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecolorPrimaryDark</item>
+        <item name="colorAccent">@color/ecolorAccent</item>
+    </style>
+
+    <style name="Workshop.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/wcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/wcolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Social.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ScolorPrimary</item>
+        <item name="colorPrimaryDark">@color/ScolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Contact.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ccolorPrimary</item>
+        <item name="colorPrimaryDark">@color/ccolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="About.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/acolorPrimary</item>
+        <item name="colorPrimaryDark">@color/acolorPrimaryDark</item>
+        <item name="colorAccent">@color/appbar_below</item>
+    </style>
+
+    <style name="Cnd.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/eveprimary</item>
+        <item name="colorPrimaryDark">@color/eveprimary_dark</item>
+        <item name="colorAccent">@color/eveprimaryac</item>
+    </style>
+
+    <style name="Wks.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/wcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/wcolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Soceve.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ScolorPrimary</item>
+        <item name="colorPrimaryDark">@color/ScolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Attr.Base" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/atcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/atcolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Attreve.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/atcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/atcolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="About.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorAccent">@color/appbar_below</item>
+    </style>
+
+    <style name="ExpandedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

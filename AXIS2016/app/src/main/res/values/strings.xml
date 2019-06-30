@@ -1,0 +1,644 @@
+<resources>
+    <string name="app_name">AXIS 2016</string>
+    <string name="V">VISVESVARAYA NATIONAL</string>
+    <string name="NIT">INSTITUTE OF TECHNOLOGY</string>
+    <string name="N">NAGPUR</string>
+    <string name="title_activity_first">First</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="team">Team</string>
+    <string name="events">Events</string>
+    <string name="workshops">Workshops</string>
+    <string name="attractions">Attractions</string>
+    <string name="sponsors">Sponsors</string>
+    <string name="presented">Presented By:</string>
+    <string name="action_settings">Settings</string>
+    <string name="eve_det">Event Details</string>
+    <string name="eve_man">Event Managers</string>
+    <string name="registration">REGISTRATION</string>
+    <string name="regFORM">Registration Form</string>
+
+    <string name="gl">Guest Lecture</string>
+
+    <string name="cua">Call Us At:</string>
+    <string name="jp">J.P. JOGA</string>
+    <string name="jpnum">+91-7767061700</string>
+    <string name="md">MIHIKA</string>
+    <string name="mdnum">+91-7875352622</string>
+    <string name="conmail">info@axisvnit.org</string>
+    <string name="address">
+        Student\'s Activity Centre, VNIT, Nagpur, 440010
+    </string>
+
+    <string name="AnR">AUTOMATION &amp; ROBOTICS</string>
+    <string name="SE">SCHOOL EVENTS</string>
+    <string name="SnE">SOFTWARE &amp; ELECTRONICS</string>
+    <string name="CnD">CONSTRUCTION &amp; DESIGN</string>
+    <string name="MnO">MANAGEMENT &amp; OTHER</string>
+    <string name="AiM">AXIS IGNITING MINDS</string>
+    <string name="NE">NEW EVENTS</string>
+
+    <string name="crepido">CREPIDO</string>
+    <string name="devise">DEVISE</string>
+    <string name="aquaskylark">AQUASKYLARK</string>
+    <string name="turboflux">TURBOFLUX</string>
+    <string name="paradeigma">PARADEIGMA</string>
+
+    <string name="js">JUNIOR SCIENTIST</string>
+    <string name="model">MODEL-O-THON</string>
+    <string name="quiz">EXQUIZIT</string>
+    <string name="cata">CATAPULTIKON</string>
+    <string name="mun">MODEL UNITED NATIONS</string>
+    <string name="matha">MATH-A-MAZE</string>
+    <string name="dexter">DEXTER</string>
+
+    <string name="robo">ROBOWARS</string>
+    <string name="aquahunt">AQUAHUNT</string>
+    <string name="mecha">MECHATRYST</string>
+    <string name="autobot">AUTOBOT</string>
+    <string name="manrob">MANUAL ROBOTICS</string>
+
+    <string name="brainstorm">BRAINSTORM</string>
+    <string name="laser">LASER LITT</string>
+    <string name="circuitrix">ELECTROBLITZ</string>
+
+    <string name="coll">COLL-IN-COLL</string>
+    <string name="kart">KARTAVYA</string>
+    <string name="techno">TECHNO.DOCX</string>
+
+    <string name="anim">ANIMAZIONE</string>
+    <string name="inso">INSOMNIA</string>
+    <string name="poster">POSTEROLIC</string>
+    <string name="crypto">CRYPTOCRUX</string>
+
+    <string name="freako">FREAK-O-MATIX</string>
+    <string name="baker">221B BAKER STREET</string>
+    <string name="boss">WHO\'S THE BOSS</string>
+    <string name="wall">WALLSTREET</string>
+    <string name="informals">INFORMALS</string>
+    <string name="sutra">GAMESUTRA</string>
+
+
+    <string name="andro">ANDROID APP DEVELOPMENT</string>
+    <string name="selfbal">SELF BALANCING ROBOT</string>
+    <string name="mobile">MOBILE BUILDING</string>
+    <string name="orni">ORNITHOCOPTER</string>
+
+    <!--crepido-->
+    <string name="akshay">AKSHAY</string>
+    <string name="aknum">+91-7709171521 </string>
+    <string name="twinkle">TWINKLE</string>
+    <string name="twnum">+91-9168068387 </string>
+    <string name="pranav">PRANAV</string>
+    <string name="prnum">+91-7743865458 </string>
+
+    <!--saviour-->
+    <string name="savio1">MONAL</string>
+    <string name="savio1num">+91-7378880223</string>
+    <string name="savio2">RAMAKRISHNA</string>
+    <string name="savio2num">+91-7767049749</string>
+    <string name="savio3">SAURAV</string>
+    <string name="savio3num">+91-7798473600</string>
+
+    <!--para-->
+    <string name="para1">M.A.AZEEM</string>
+    <string name="para1num">+91-7798424632 </string>
+    <string name="para2">ALEKHYA KONDA</string>
+    <string name="para2num">+91-7757897483 </string>
+
+    <!--turbo-->
+    <string name="turbo1">NAVEEN</string>
+    <string name="turbo1num">+91-9960775694</string>
+    <string name="turbo2">VAMSI</string>
+    <string name="turbo2num">+91-7798425956</string>
+    <string name="turbo3">SARITA</string>
+    <string name="turbo3num">+91-9049555923</string>
+
+    <!--devise-->
+    <string name="devise1">JAMILA</string>
+    <string name="devise1num">+91-8149781429</string>
+    <string name="devise2">PANKAJ</string>
+    <string name="devise2num">+91-9975045875</string>
+    <string name="devise3">SAUDAMINI</string>
+    <string name="devise3num">+91-7387235906</string>
+    <string name="devise4">SHUBHAM</string>
+    <string name="devise4num">+91-7038979557</string>
+
+    <!--sky-->
+    <string name="sky1">GANESH</string>
+    <string name="sky1num">+91-9545861904</string>
+    <string name="sky2">SUMA</string>
+    <string name="sky2num">+91-9049530821</string>
+    <string name="sky3">PRASAD</string>
+    <string name="sky3num">+91-9773092040</string>
+
+    <!--robo-->
+    <string name="robo1">ADITYA</string>
+    <string name="robo1num">+91-9561299129</string>
+    <string name="robo2">JAYESH</string>
+    <string name="robo2num">+91-8390529435</string>
+    <string name="robo3">RAVI</string>
+    <string name="robo3num">+91-7387461573</string>
+    <string name="robo4">YOGESH</string>
+    <string name="robo4num">+91-8108000272</string>
+
+    <!--auto-->
+    <string name="auto1">PRAVIN</string>
+    <string name="auto1num">+91-9922795270 </string>
+    <string name="auto2">REGINOLD</string>
+    <string name="auto2num">+91-7276138957 </string>
+
+    <!--sky-->
+    <string name="aqua1">AKSHAYAN</string>
+    <string name="aqua1num">+91-8793269927</string>
+    <string name="aqua2">AMAN</string>
+    <string name="aqua2num">+91-9404115260 </string>
+    <string name="aqua3">ANSHUL</string>
+    <string name="aqua3num">+91-8408926596 </string>
+
+    <!--mecha-->
+    <string name="mecha1">NACHIKET</string>
+    <string name="mecha1num">+91-9168919857</string>
+    <string name="mecha2">ANCHAL</string>
+    <string name="mecha2num">+91-9869482766</string>
+    <string name="mecha3">TUSHAR</string>
+    <string name="mecha3num">+91-9405841135</string>
+
+    <!--anim-->
+    <string name="anim1">DINESH</string>
+    <string name="anim1num">+91-9130613719</string>
+    <string name="anim2">PRAGNA</string>
+    <string name="anim2num">+91-9494872571 </string>
+    <string name="anim3">MANISH</string>
+    <string name="anim3num">+91-7028611996</string>
+
+    <!--crypto-->
+    <string name="crypto1">HARDIK</string>
+    <string name="crypto1num">+91-9769328402</string>
+    <string name="crypto2">NEHA</string>
+    <string name="crypto2num">+91-7720084887</string>
+
+    <!--inso-->
+    <string name="inso1">SHAH</string>
+    <string name="insoo1num">+91-7720956323 </string>
+    <string name="insoo2">SAXENA</string>
+    <string name="insoo2num">+91-7038243074</string>
+
+
+    <!--coll-->
+    <string name="coll1">MAYUR</string>
+    <string name="coll1num">+91-8055155345</string>
+    <string name="coll2">SIDDHARTHA</string>
+    <string name="coll2num">+91-7767049792</string>
+    <string name="coll3">SANKET</string>
+    <string name="coll3num">+91-7387311052</string>
+    <string name="coll4">SOWMYA</string>
+    <string name="coll4num">+91-9049568241</string>
+
+
+    <!--kart-->
+    <string name="kart1">MAHESH</string>
+    <string name="kart1num">+91-7350042360 </string>
+    <string name="kart2">SIVAMOUNI</string>
+    <string name="kart2num">+91-7757835722 </string>
+    <string name="kart3">SUMAJA</string>
+    <string name="kart3num">+91-9049458462 </string>
+
+
+    <!--techno-->
+    <string name="techno1">HIMANSHU</string>
+    <string name="techno1num">+91-8879017759</string>
+    <string name="techno2">MANGESH</string>
+    <string name="techno2num">+91-9689203459</string>
+    <string name="techno3">SHUBHAM</string>
+    <string name="techno3num">+91-9527092298</string>
+
+    <!--electro-->
+    <string name="electro1">SANKET</string>
+    <string name="electro1num">+91-9028694342</string>
+    <string name="electro2">SWAPNIL</string>
+    <string name="electro2num">+91-9765191060</string>
+
+
+    <!--js-->
+    <string name="js1">KUMAR</string>
+    <string name="js1num">+91-7507666333</string>
+    <string name="js2">PRANIT</string>
+    <string name="js2num">+91-9503244225</string>
+    <string name="js3">SHRUTIKA</string>
+    <string name="js3num">+91-8975251146</string>
+
+
+    <!--baker-->
+    <string name="baker1">PRANAV</string>
+    <string name="baker1num">+91-7028813496</string>
+    <string name="baker2">SHREYAS</string>
+    <string name="baker2num">+91-8007150268</string>
+
+
+    <!--sutra-->
+    <string name="sutra1">GAURAV</string>
+    <string name="sutra1num">+91-7718851462</string>
+    <string name="sutra2">RAVI</string>
+    <string name="sutra2num">+91-8446180164</string>
+    <string name="sutra3">SHOBHIT</string>
+    <string name="sutra3num">+91-9923519736</string>
+    <string name="sutra4">YASH</string>
+    <string name="sutra4num">+91-8446180164</string>
+
+
+    <!--wall-->
+    <string name="wall1">ASHISH</string>
+    <string name="wall1num">+91-9130621649</string>
+    <string name="wall2">KULDEEP</string>
+    <string name="wall2num">+91-9130871289</string>
+    <string name="wall3">SANKET</string>
+    <string name="wall3num">+91-7083754861</string>
+    <string name="wall4">RACHANA</string>
+    <string name="wall4num">+91-9130866782</string>
+
+
+    <!--informals-->
+    <string name="infor1">HARSHA</string>
+    <string name="infor1num">+91-9049544329</string>
+    <string name="infor2">KRISHNA</string>
+    <string name="infor2num">+91-9403293620</string>
+    <string name="infor3">RISHI</string>
+    <string name="infor3num">+91-9160458966</string>
+    <string name="infor4">SRIPATHI</string>
+    <string name="infor4num">+91-8019266082 </string>
+
+
+    <!--freako-->
+    <string name="freako1">BHARGAV</string>
+    <string name="freako1num">+91-7057254162</string>
+    <string name="freako2">SUDEEPTHI</string>
+    <string name="freako2num">+91-9049532362</string>
+
+
+    <!--boss-->
+    <string name="boss1">ADITI</string>
+    <string name="boss1num">+91-9038268973</string>
+    <string name="boss2">MEGHA</string>
+    <string name="boss2num">+91-7756828950</string>
+    <string name="boss3">NANDISH</string>
+    <string name="boss3num">+91-9869955210</string>
+
+
+    <!--brain-->
+    <string name="brain1">RUCHA</string>
+    <string name="brain1num">+91-9168076894</string>
+    <string name="brain2">SREELAKSHMI</string>
+    <string name="brain2num">+91-7387246402</string>
+
+    <!--laser-->
+    <string name="laser1">APURVA</string>
+    <string name="laser1num">+91-9764260152</string>
+    <string name="laser2">SANCHIT</string>
+    <string name="laser2num">+91-9689990341</string>
+
+
+    <!--dexter-->
+    <string name="dex1">APURVA</string>
+    <string name="dex1num">+91-9423687167</string>
+    <string name="dex2">DHIRAJ</string>
+    <string name="dex2num">+91-7038471821 </string>
+    <string name="dex3">SHRUTI</string>
+    <string name="dex3num">+91-7028441779 </string>
+    <string name="dex4">HARI</string>
+    <string name="dex4num">+91-9769142883 </string>
+    <string name="dex5">OMKAR</string>
+    <string name="dex5num">+91-8698460467 </string>
+    <string name="dex6">PUSHKAR</string>
+    <string name="dex6num">+91-7743932965</string>
+
+    <string name="apj">Honorable Ex-President of India Dr. APJ Kalam inaugurating Axis-14 at VNIT Nagpur</string>
+
+    <string name="profinc">PROFESSOR IN-CHARGES</string>
+    <string name="ccnt">CORE COORDINATORS &amp; TREASURER</string>
+    <string name="pinc">PUBLICITY IN-CHARGES</string>
+    <string name="web">ANDROID &amp; GRAPHICS</string>
+    <string name="tresi">TREASURER</string>
+    <string name="core">CORE COORDINATORS</string>
+
+    <!--core-->
+    <string name="core1">AMIT TAPAS</string>
+    <string name="core2">ANOUSHKA BANAVAR</string>
+    <string name="core3">HARSHAL PATIL</string>
+    <string name="core4">HEMANSHU CHAMATE</string>
+    <string name="core5">JP JOGA</string>
+    <string name="core6">VIVEK DESHPANDE</string>
+    <string name="core7">SUMEDH KANADE</string>
+
+    <!--publicity-->
+    <string name="pub1">JASHWANTH REDDY</string>
+    <string name="pub2">MEGHANA PONNURU</string>
+    <string name="pub3">MIHIKA DAGA</string>
+    <string name="pub4">PRANEEL CHANDRA</string>
+    <string name="pub5">SHUBHAM HINGE</string>
+
+    <!--profs-->
+    <string name="profs1">DR. YASHWANT KATPATAL</string>
+    <string name="profs2">DR. VIJAYA KUMAR</string>
+    <string name="profs3">DR. MANGESH KOTAMBKAR</string>
+    <string name="profs4">DR. G.HEMACHANDRA</string>
+    <string name="profs5">DR. D.H.LATAYE</string>
+    <string name="profs6">DR. M.DEVAKAR</string>
+
+    <!--me-->
+    <string name="desg">TANAY PATIL</string>
+
+
+    <string name="action_back">back</string>
+
+    <string name="cre_det">
+        Construct solid, secure bridges from flimsy popsicles sticks and simple glue.
+        Show off your talent, creativity and dexterity. Can your bridge stand the test of gravity as it takes on unimaginable loads?
+    </string>
+
+    <string name="devise_det">
+        Think your ideas have the potential to change the world? Always finding your own solutions
+        more efficient than others? You may just be cut out for Devise, AXIS\'s design competition.
+        Test your mettle against creative minds just like yours in order to come up with the most
+        inspired solutions to the design challenges we give you. A chance to learn and check where
+        you stand among your peers. Demand innovative and ground-breaking solutions. Drive the
+        participants to delve deep into their creative core and emerge with unexpected practical
+        solutions. Devise something new.
+    </string>
+
+    <string name="para_det">
+        Paradeigma is the event to be at if applying your engineering skills to solve problems gives you a high.
+        All you have to do is bring in your skills and design a model to satisfy the given problem statement.
+    </string>
+
+    <string name="turbo_det">
+        Use your hydraulics knowledge to rotate a turbine by making water pass through several obstacles.
+        Physics was never more fun, especially when you “kind of” get to be Swades’s SRK.
+    </string>
+
+    <string name="sky_det">
+        Rockets are the stuff science fiction is made of. Aqua Skylark is where you let the (secret)
+        aerospace engineer in you out. Design a water rocket that “shoots” all of the other competition out of the water.
+    </string>
+
+    <string name="robo_det">
+        Robowars is an event in which self - designed robots are made to fight against each other in
+        a battle arena. A crowd favourite, the Robowars battle arena is the place to be at!
+    </string>
+
+    <string name="auto_det">
+        Roboticists, listen up! Autobot challenges you to develop a line follower robot which can
+        traverse through the twists and turns of a maze.
+    </string>
+
+
+    <string name="savio_det">
+        In this event participants have to construct/build a manually controlled robot which is capable of grabbing
+        different objects and crossing different types of terrain by reconstructing it\'s path and broken bridge.
+        The obstacles are very challenging and critically test the designing skills of participants.
+    </string>
+
+
+    <string name="mecha_det">
+        It is the breathtaking IC engine car racing event of AXIS. This is a perfect place for every car race zealot.
+    </string>
+
+
+    <string name="anim_det">
+        Make a 3D, 2D or Stick Figure Animation video on ‘Time Travel’ or ‘Reaction of Things’,
+        jazz it up with multiple characters and animated effects to showcase your originality and ingenuity to sweep the judges off their feet!
+    </string>
+
+
+    <string name="crypto_det">
+        Charge your brain cells as you engage in a one-of-a-kind encryption-decryption battle,
+        and put your problem-solving skills to work to win some very attractive cash prizes!
+    </string>
+
+
+    <string name="inso_det">
+        The all-night coding event is back, with more complex and challenging problems to keep you up all night!
+    </string>
+
+
+    <string name="poster_det">
+        Design a poster using any photo editor on either one of the topics –
+        ‘Life without Essentials’ or ‘Life of a Legend’ and demonstrate your unique interpretation of
+        the problem statement to bag attractive prizes!
+    </string>
+
+
+    <string name="aqua_det">
+        Build and design your aquatic robot that can manouevre itself in water to complete all the
+        tasks in this aqua-bot tournament. Ultimate aquatic glory awaits!
+    </string>
+
+    <string name="dex_det">
+        Dexter is a nation -wide aptitude test conducted every year for school students. It is a
+        great platform to discover your hidden talents by thinking out of the box.
+    </string>
+
+    <string name="coll_det">
+        Bag lucrative industry internships/projects with some of the biggest names in engineering by
+        coming up with creative solutions to the problem statements presented, and gain an insight into how things work in the industrial world.
+    </string>
+
+
+    <string name="kart_det">
+        Come up with out-of-the-box solutions to solve real-world problems faced by NGOs and get a
+        chance to win a social internship at AIESEC.
+    </string>
+
+    <string name="techno_det">
+        Techno.docx is a platform for all the budding researchers out there to showcase their
+        original research to engage and captivate, and to get their proposals evaluated by some of the best minds in the industry.
+    </string>
+
+    <string name="electro_det">
+        Love debugging electronic circuits and designing new ones? AXIS presents an all new event
+        putting to test your ability to solve a jigsaw puzzle of logic gates and electrical components.
+    </string>
+
+    <string name="model_det">
+        It is one of the most awaited scientific model making competition.
+        It is a unique opportunity for creative thinkers and innovative pioneers.
+    </string>
+
+    <string name="cata_det">
+        It is an event where you have to design a catapult to destroy enemy targets.
+        This event aims at developing engineering skills amongst students.
+    </string>
+
+    <string name="matha_det">
+        It is an ingenious event to test mathematical skill of school students.
+        They have to solve the most challenging maths problems in a limited time.
+    </string>
+
+    <string name="quiz_det">
+        One of the most challenging quiz competition for school students.
+        It is a place where the sharpest minds compete to prove themselves the best.
+    </string>
+
+    <string name="mun_det">
+        It is a school level simulation of United Nations. It provides students an opportunity to be delegate of a nation.
+    </string>
+
+
+    <string name="sutra_det">
+        Gaming has always been a precious pastime to a vast majority of us. Think you\'re an elite
+        gamer? Gamesutra is the event for you. Showcase your gaming skills in the some of the world\'s
+        most played games: Counter Strike, FIFA and NFS.
+    </string>
+
+
+    <string name="informals_det">
+        The Informals at AXIS’15 entertained one and all with the engaging and fun­filled activities.
+        Dodging and shooting with your friends in the paintball arena, getting your hands messy as part
+        of the Colour Wall, instant whacky photography for all the selfie queens and kings, experiencing
+        the future through Google cardboards, robosoccer for the football fans, the informals was the place
+        to be. Yet again, AXIS’16 promises to let you have the time of your lives! So, jump on to the Informals
+        bandwagon at AXIS’16. Stay tuned for more updates.
+    </string>
+
+    <string name="wall_det">
+        WallStreet 2016 goes cosmic! Buy shares, sell stock and interact with brokers looking to
+        provide an exchange. Prizes for the tycoon who generates the most revenue!
+    </string>
+
+    <string name="boss_det">
+        This is not for the faint-hearted or the anxious. This is the game of leaders. Generate the
+        greatest yield from the resources provided as the CEO of your own company. Dare to take risks.
+    </string>
+
+
+    <string name="freako_det">
+        Freak O Matix, the mathematical challenge dealing with mind-boggling numbers and intricate
+        puzzles is back to bring out the Ramanujan in you!
+    </string>
+
+
+    <string name="baker_det">
+        Experience the most thrilling, innovative and challenging quiz contest you have ever
+        encountered. You will be sent to every corner of the web to cut through the veil of mystery.
+        Take a gander down 221B Baker Street.
+    </string>
+
+
+    <string name="brain_det">
+        A Nagpur citywide quiz contest tailored specifically for all the quizzing enthusiasts out
+        there. So, let’s see if you have the IQ to crack the AQ (AXIS Quiz)!
+    </string>
+
+
+    <string name="laser_det">
+       Come, be a part of an unforgettable psychedelic experience as you put to practice the law of
+        reflection while wielding your laser light sabers! The first ever dark room challenge of AXIS’16.
+    </string>
+
+
+    <string name="andro_det">
+        Android being a robust operating system provides you with stability that has a strong Linux
+        core which helps your android application to withstand the judgment of internet traffic.
+        Android has covered very importance in the mobile industry mostly with our Android
+        applications and developers which then empowers programmers to develop an ingenious mobile
+        application for your android smartphone. This workshop is a comprehensive look at the
+        Android architecture that teaches how to build and deploy applications for Android phones
+        and tablets using the Java programming language. Starting with the installation of the
+        required developer tools, including Eclipse and the Android SDK, the course covers how to
+        build the user interface, work with local data, integrate data from the accelerometer and
+        other sensors, and deploy finished applications to the Play Store
+    </string>
+
+    <string name="mobo_det">
+        Mobile Phone Building Workshop is an exclusive workshop to learn the entire working of the
+        mobile phone. The importance of a mobile phone is increasing day by day in our lives and
+        this is a golden opportunity to learn the science behind it. The coding and logic gates
+        required to do this workshop will be taught right from the basics on an Arduino processor.
+        The mobile phone will be able to send and receive calls as well as send SMS to anyone. The
+        kit will include an Arduino board, SIM 900A module, LCD display, dialer pad and attached
+        wirings. The basics of automation will be also taught which will be helpful for robotics purposes too.
+    </string>
+
+
+    <string name="selfbal_det">
+        Ever rode a bike?
+        The art of balancing oneself takes some time to learn. Now learn how to teach this feature to a
+        robot to balance itself in the workshop on a self-balancing robot.
+        This workshop will use gyro sensors and Arduino to balance the unique three tier chassis of
+        the robot. Also learn how to code a bluetooth module to connect to the robot and make it
+        move whilst balancing itself.
+    </string>
+
+
+    <string name="colors">
+        Every festival has darker shades to it, an underbelly that is not always visible to the eye.
+        So, is the case with Holi, the festival of colours. AXIS’16, conducted a heart-warming city-wide
+        series called Colours of Nagpur, wherein we brought to light the stories of those who go unnoticed,
+        unheeded working relentlessly as the rest of the city was revelling in the spirit of Holi. Nurses,
+        petrol pump workers, traffic policemen, airport staff, the ‘Coolie’ at the train station, we covered
+        them all. Just a simple act of being a good patient listener showed that we cared.
+    </string>
+
+    <string name="nosmoking">
+        Addressing the increasing levels of youngsters taking to smoking, AXIS\'16 took social media
+        by storm. All it took for you to show your solidarity for the campaign, was to change your
+        Facebook and Whatsapp profile pictures to the #ISayNoToSmoking poster for a day. With
+        thousands of students across the country volunteering, we hope to have made a small
+        difference among the college campus communities.
+    </string>
+
+    <string name="environment">
+        Does it sadden you to watch trees being felled only to pave the way to concrete jungles? If
+        it does, the My Tree, My Friend initiative by AXIS\'16 was just the place for you to have been.
+         My Tree, My Friend was a Nagpur city-wide attempt to open the Nagpurian\'s eyes as to how
+        their once green, tree lined city was fast urbanizing into yet another grey, polluted,
+        metropolis. Following on the lines of the friendship day trend of tying ribbons to one’s
+        friends, the students of VNIT instead each befriended a tree by tying a green ribbon around
+        it. The green ribbon, signified a promise of protection in the face of deforestation, from
+        the younger generation to the good old trees whose shade they had grown up under.
+    </string>
+
+    <string name="childlabor">
+        The dream that we all hope comes true someday is that there should be no reason to celebrate
+        a day such as World Day against Child Labour.  AXIS’16, performed street plays across Nagpur
+        in prime youth hotspots such as malls and parks igniting the fire in the educated youth of
+        the city, to rise and fight against this inhuman and cruel practice. The street plays received
+        an overwhelming response from people of all walks of life.
+    </string>
+
+    <string name="amish_det">
+        An atheist turned believer, a banker turned writer, he is a man who rekindled young India\'s fascination for our rich mythology.
+        AXIS, VNIT invites you to an evening with one of India\'s most popular authors Amish Tripathi. Come, live the dream on the 24th of
+        September at VNIT, Nagpur.
+    </string>
+
+    <string name="afishal_det">
+        For the Third time in India and the First time in Nagpur, AXIS\'16 presents \"AFISHAL\" -
+        The one and only Visual DJ, who has taken DJ\'ing to a new level with the TREMOR.
+        Get ready to Redefine Reality and experience the most incredible Live Show!!
+        Date: 25th September 2016.
+        Time: 6:30pm
+        Venue: VNIT Auditorium
+        Grab your free passes from the AXIS Reception Desk on 24th September from 10:00am. Don\'t
+        forget to get your ID proof while collecting your passes.
+    </string>
+
+    <string name="inaug_det">
+        We are privileged to have Dr. Ashish Saraf, Vice President,Industry Development, Strategic
+        Partnerships &amp; Offsets, Airbus India as our Chief Guest and Mr. Sachin Kurve, the
+        District Collector of Nagpur as the Guest of Honour.
+        Concluding with a one of a kind Graphic and Beam show, the inaugural evening promises to be
+        a memorable experience!
+        TIME : 23rd September at 5.30 pm in the VNIT Auditorium.
+        Passes available at the AXIS Registration Desk.
+    </string>
+
+    <string name="orni_det">
+        Ever seen a bird flying? Replicate the original flying machine in the form of an
+        ornithocopter. This aero-model will flap its mechanical wings using only mechanical energy.
+        The highest quality and lightweight material will help you to fly it to greater heights and distances.
+    </string>
+
+    <string name="title_activity_con_map">Map</string>
+
+</resources>

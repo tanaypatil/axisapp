@@ -1,0 +1,97 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="Team" parent="Team.Base">
+        <item name="colorPrimary">@color/tcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/tcolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Sponsor" parent="Sponsor.Base">
+        <item name="colorPrimary">@color/scolorPrimary</item>
+        <item name="colorPrimaryDark">@color/scolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Events" parent="Events.Base">
+        <item name="colorPrimary">@color/ecolorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecolorPrimaryDark</item>
+        <item name="colorAccent">@color/ecolorAccent</item>
+    </style>
+
+    <style name="Workshop" parent="Workshop.Base">
+        <item name="colorPrimary">@color/wcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/wcolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="Social" parent="Social.Base">
+        <item name="colorPrimary">@color/ScolorPrimary</item>
+        <item name="colorPrimaryDark">@color/ScolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Contact" parent="Contact.Base">
+        <item name="colorPrimary">@color/ccolorPrimary</item>
+        <item name="colorPrimaryDark">@color/ccolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="About" parent="About.Base">
+        <item name="colorPrimary">@color/acolorPrimary</item>
+        <item name="colorPrimaryDark">@color/acolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="Cnd" parent="Cnd.Base">
+        <item name="colorPrimary">@color/eveprimary</item>
+        <item name="colorPrimaryDark">@color/eveprimary_dark</item>
+        <item name="colorAccent">@color/eveprimaryac</item>
+    </style>
+
+    <style name="Wks" parent="Wks.Base">
+        <item name="colorPrimary">@color/wcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/wcolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Soceve" parent="Soceve.Base">
+        <item name="colorPrimary">@color/ScolorPrimary</item>
+        <item name="colorPrimaryDark">@color/ScolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Attr" parent="Attr.Base">
+        <item name="colorPrimary">@color/atcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/atcolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Attreve" parent="Attreve.Base">
+        <item name="colorPrimary">@color/atcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/atcolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ExpandedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="AboutTab" parent="About.AppBarOverlay">
+        <item name="colorAccent">@color/appbar_below</item>
+    </style>
+
+</resources>

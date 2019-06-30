@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.developer.tanaypatil.axis2016.events.mno.MnoList">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:id="@+id/mno_title"
+        android:padding="8dp"
+        android:background="@color/ecolorPrimary"
+        android:elevation="4dp">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/briefcase"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="2dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/MnO"
+            android:textSize="21sp"
+            android:id="@+id/sne_label"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mno_rec"
+        android:layout_below="@+id/mno_title"
+        android:layout_marginTop="6dp">
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.developer.tanaypatil.axis2016.events.aim.AiMList">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:id="@+id/aim_title"
+        android:padding="8dp"
+        android:background="@color/ecolorPrimary"
+        android:elevation="4dp">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/light_bulb"
+            android:layout_alignTop="@+id/anr_label"
+            android:layout_toLeftOf="@+id/anr_label"
+            android:layout_toStartOf="@+id/anr_label" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AiM"
+            android:textSize="21sp"
+            android:id="@+id/anr_label"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/aim_rec"
+        android:layout_below="@+id/aim_title"
+        android:layout_marginTop="6dp">
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</RelativeLayout>

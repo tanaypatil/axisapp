@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.developer.tanaypatil.axis2016">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:fullBackupContent="@xml/backup_descriptor">
+
+        <!-- Splash -->
+        <activity
+            android:name=".SPLASH"
+            android:label="AXIS 2016"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Events -->
+        <activity
+            android:name=".events.Events"
+            android:label="EVENTS"
+            android:logo="@drawable/logo"
+            android:parentActivityName=".main.Main"
+            android:screenOrientation="portrait"
+            android:theme="@style/Events">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.Main" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Events" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Workshops -->
+        <activity
+            android:name=".workshops.Workshops"
+            android:label="WORKSHOPS"
+            android:parentActivityName=".main.Main"
+            android:theme="@style/Workshop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.Main" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Workshops" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Sponsors -->
+
+
+        <!-- Team -->
+        <activity
+            android:name=".Team"
+            android:label="TEAM"
+            android:parentActivityName=".main.Main"
+            android:screenOrientation="portrait"
+            android:theme="@style/Team">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.Main" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Team" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Social Initiatives -->
+
+        <activity
+            android:name=".socIni.SocialInitiatives"
+            android:label="Social Initiatives"
+            android:parentActivityName=".main.Main"
+            android:theme="@style/Social">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.Main" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Social" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Contact -->
+        <activity
+            android:name=".Contact"
+            android:icon="@drawable/mobile_phone"
+            android:label="Contact Us"
+            android:parentActivityName=".main.Main"
+            android:theme="@style/Sponsor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.Main" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Contact" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- notifs detail -->
+
+
+        <!-- Main -->
+        <activity
+            android:name=".main.Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.Main" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- About -->
+        <activity
+            android:name=".about.About"
+            android:label="ABOUT"
+            android:parentActivityName=".main.Main"
+            android:screenOrientation="portrait"
+            android:theme="@style/About">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.Main" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.About" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Anr -->
+        <activity
+            android:name=".events.anr.AnR_evelist"
+            android:label="EVENTS"
+            android:parentActivityName=".events.Events"
+            android:theme="@style/Events">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.Events" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.AnR_evelist" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Se -->
+        <activity
+            android:name=".events.se.SeList"
+            android:label="EVENTS"
+            android:parentActivityName=".events.Events"
+            android:theme="@style/Events">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.Events" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SeList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- SNE -->
+        <activity
+            android:name=".events.sne.SneList"
+            android:label="EVENTS"
+            android:parentActivityName=".events.Events"
+            android:theme="@style/Events">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.Events" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SneList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- CND -->
+        <activity
+            android:name=".events.cnd.CndList"
+            android:label="EVENTS"
+            android:parentActivityName=".events.Events"
+            android:theme="@style/Events">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.Events" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.CndList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- MNO -->
+        <activity
+            android:name=".events.mno.MnoList"
+            android:label="EVENTS"
+            android:parentActivityName=".events.Events"
+            android:theme="@style/Events">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.Events" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MnoList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- AiM -->
+        <activity
+            android:name=".events.aim.AiMList"
+            android:label="EVENTS"
+            android:parentActivityName=".events.Events"
+            android:theme="@style/Events">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.Events" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.AimList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- ne -->
+        <activity
+            android:name=".events.ne.Ne_List"
+            android:label="EVENTS"
+            android:parentActivityName=".events.Events"
+            android:theme="@style/Events">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.Events" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.NeList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Colors -->
+        <activity
+            android:name=".socIni.colors"
+            android:label="Colors Of Nagpur"
+            android:parentActivityName=".socIni.SocialInitiatives"
+            android:screenOrientation="portrait"
+            android:theme="@style/Soceve">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".socIni.SocialInitiatives" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Colors" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- envday -->
+        <activity
+            android:name=".socIni.EnvDay"
+            android:label="World Environment Day"
+            android:parentActivityName=".socIni.SocialInitiatives"
+            android:screenOrientation="portrait"
+            android:theme="@style/Soceve">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".socIni.SocialInitiatives" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.EnvDay" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- child labor -->
+        <activity
+            android:name=".socIni.ChildLabor"
+            android:label="Against Child Labour"
+            android:parentActivityName=".socIni.SocialInitiatives"
+            android:screenOrientation="portrait"
+            android:theme="@style/Soceve">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".socIni.SocialInitiatives" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Child" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- NoSmoke -->
+        <activity
+            android:name=".socIni.NoSmoking"
+            android:label="No Smoking Day"
+            android:parentActivityName=".socIni.SocialInitiatives"
+            android:screenOrientation="portrait"
+            android:theme="@style/Soceve">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".socIni.SocialInitiatives" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.NoSmoking" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- crepido -->
+        <activity
+            android:name=".events.cnd.Crepido"
+            android:label="CREPIDO"
+            android:parentActivityName=".events.cnd.CndList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.cnd.CndList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Crepido" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Devise -->
+        <activity
+            android:name=".events.cnd.Devise"
+            android:label="@string/devise"
+            android:parentActivityName=".events.cnd.CndList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.cnd.CndList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Devise" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Aquasky -->
+        <activity
+            android:name=".events.cnd.Aquasky"
+            android:label="@string/aquaskylark"
+            android:parentActivityName=".events.cnd.CndList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.cnd.CndList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Aquasky" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- para -->
+        <activity
+            android:name=".events.cnd.Paradeigma"
+            android:label="@string/paradeigma"
+            android:parentActivityName=".events.cnd.CndList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.cnd.CndList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Para" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- turbo -->
+        <activity
+            android:name=".events.cnd.turbo"
+            android:label="@string/turboflux"
+            android:parentActivityName=".events.cnd.CndList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.cnd.CndList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Turbo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- jS -->
+        <activity
+            android:name=".events.se.Js"
+            android:label="@string/js"
+            android:parentActivityName=".events.se.SeList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.se.SeList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Js" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- dexter -->
+        <activity
+            android:name=".events.se.Dexter"
+            android:label="@string/dexter"
+            android:parentActivityName=".events.se.SeList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.se.SeList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Dexter" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- robo -->
+        <activity
+            android:name=".events.anr.Robowars"
+            android:label="@string/robo"
+            android:parentActivityName=".events.anr.AnR_evelist"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.anr.AnR_evelist" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Robo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- mecha -->
+        <activity
+            android:name=".events.anr.Mechatryst"
+            android:label="@string/mecha"
+            android:parentActivityName=".events.anr.AnR_evelist"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.anr.AnR_evelist" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Mecha" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- aquahunt -->
+        <activity
+            android:name=".events.anr.Aquahunt"
+            android:label="@string/aquahunt"
+            android:parentActivityName=".events.anr.AnR_evelist"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.anr.AnR_evelist" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Aquahunt" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Autobot -->
+        <activity
+            android:name=".events.anr.Autobot"
+            android:label="@string/autobot"
+            android:parentActivityName=".events.anr.AnR_evelist"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.anr.AnR_evelist" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Autobot" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- ManRo -->
+        <activity
+            android:name=".events.anr.ManRo"
+            android:label="@string/manrob"
+            android:parentActivityName=".events.anr.AnR_evelist"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.anr.AnR_evelist" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.ManRo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- brain -->
+        <activity
+            android:name=".events.ne.Brainstorm"
+            android:label="@string/brainstorm"
+            android:parentActivityName=".events.ne.Ne_List"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.ne.Ne_List" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Brain" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Laser -->
+        <activity
+            android:name=".events.ne.Laser"
+            android:label="@string/laser"
+            android:parentActivityName=".events.ne.Ne_List"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.ne.Ne_List" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Laser" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- ELECTRO -->
+        <activity
+            android:name=".events.ne.Circuitrix"
+            android:label="@string/circuitrix"
+            android:parentActivityName=".events.ne.Ne_List"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.ne.Ne_List" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Circuit" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- coll -->
+        <activity
+            android:name=".events.aim.Coll"
+            android:label="@string/coll"
+            android:parentActivityName=".events.aim.AiMList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.aim.AiMList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Coll" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- kartavya -->
+        <activity
+            android:name=".events.aim.Kartavya"
+            android:label="@string/kart"
+            android:parentActivityName=".events.aim.AiMList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.aim.AiMList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Kart" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Techno -->
+        <activity
+            android:name=".events.aim.TechnoDox"
+            android:label="@string/techno"
+            android:parentActivityName=".events.aim.AiMList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.aim.AiMList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Techno" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Animazione -->
+        <activity
+            android:name=".events.sne.Animazione"
+            android:label="@string/anim"
+            android:parentActivityName=".events.sne.SneList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.sne.SneList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Anim" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- crypto -->
+        <activity
+            android:name=".events.sne.Cryptocrux"
+            android:label="@string/crypto"
+            android:parentActivityName=".events.sne.SneList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.sne.SneList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Crypto" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- inso -->
+        <activity
+            android:name=".events.sne.Insomnia"
+            android:label="@string/inso"
+            android:parentActivityName=".events.sne.SneList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.sne.SneList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Inso" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- poster -->
+        <activity
+            android:name=".events.sne.Posterolic"
+            android:label="@string/poster"
+            android:parentActivityName=".events.sne.SneList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.sne.SneList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Poster" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Informals -->
+        <activity
+            android:name=".events.mno.Informals"
+            android:label="@string/informals"
+            android:parentActivityName=".events.mno.MnoList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.mno.MnoList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Informals" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- wall -->
+        <activity
+            android:name=".events.mno.Wallstreet"
+            android:label="@string/wall"
+            android:parentActivityName=".events.mno.MnoList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.mno.MnoList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Wall" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- boss -->
+        <activity
+            android:name=".events.mno.Boss"
+            android:label="@string/boss"
+            android:parentActivityName=".events.mno.MnoList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.mno.MnoList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Boss" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- baker -->
+        <activity
+            android:name=".events.mno.Baker"
+            android:label="@string/baker"
+            android:parentActivityName=".events.mno.MnoList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.mno.MnoList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Baker" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- freako -->
+        <activity
+            android:name=".events.mno.Freako"
+            android:label="@string/freako"
+            android:parentActivityName=".events.mno.MnoList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.mno.MnoList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Freako" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- gamesutra -->
+        <activity
+            android:name=".events.mno.Gamesutra"
+            android:label="@string/sutra"
+            android:parentActivityName=".events.mno.MnoList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Cnd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".events.mno.MnoList" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Game" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- core -->
+        <activity
+            android:name=".team.Core"
+            android:label="@string/ccnt"
+            android:parentActivityName=".Team"
+            android:screenOrientation="portrait"
+            android:theme="@style/Team">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Team" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Core" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- publicity -->
+        <activity
+            android:name=".team.Pub"
+            android:label="@string/pinc"
+            android:parentActivityName=".Team"
+            android:screenOrientation="portrait"
+            android:theme="@style/Team">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Team" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Pub" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- profs -->
+        <activity
+            android:name=".team.Profs"
+            android:label="@string/profinc"
+            android:parentActivityName=".Team"
+            android:screenOrientation="portrait"
+            android:theme="@style/Team">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Team" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Profs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- design -->
+        <activity
+            android:name=".team.Design"
+            android:label="@string/web"
+            android:parentActivityName=".Team"
+            android:screenOrientation="portrait"
+            android:theme="@style/Team">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Team" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Desg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- androwks -->
+        <activity
+            android:name=".workshops.AndroWks"
+            android:label="@string/andro"
+            android:parentActivityName=".workshops.Workshops"
+            android:screenOrientation="portrait"
+            android:theme="@style/Wks">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".workshops.Workshops" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Andro" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- orniwks -->
+        <activity
+            android:name=".workshops.OrniWks"
+            android:label="@string/orni"
+            android:parentActivityName=".workshops.Workshops"
+            android:screenOrientation="portrait"
+            android:theme="@style/Wks">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".workshops.Workshops" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Orni" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- mobowks -->
+        <activity
+            android:name=".workshops.MoboWks"
+            android:label="@string/mobile"
+            android:parentActivityName=".workshops.Workshops"
+            android:screenOrientation="portrait"
+            android:theme="@style/Wks">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".workshops.Workshops" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Mobo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- selfbalwks -->
+        <activity
+            android:name=".workshops.SelfBalWks"
+            android:label="@string/selfbal"
+            android:parentActivityName=".workshops.Workshops"
+            android:screenOrientation="portrait"
+            android:theme="@style/Wks">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".workshops.Workshops" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SelfBal" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Attractions -->
+        <activity
+            android:name=".attractions.Attractions"
+            android:label="@string/attractions"
+            android:parentActivityName=".main.Main"
+            android:screenOrientation="portrait"
+            android:theme="@style/Attr">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.Main" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Attractions" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Amish -->
+        <activity
+            android:name=".attractions.Amish"
+            android:label="@string/gl"
+            android:parentActivityName=".attractions.Attractions"
+            android:screenOrientation="portrait"
+            android:theme="@style/Attreve">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".attractions.Attractions" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Amish" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Amish Form -->
+        <activity
+            android:name=".attractions.AmishForm"
+            android:label="@string/registration"
+            android:parentActivityName=".attractions.Amish"
+            android:screenOrientation="portrait"
+            android:theme="@style/Attr">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".attractions.Amish" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.AmishForm" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- afishal -->
+        <activity
+            android:name=".attractions.Afishal"
+            android:label="DJ AFISHAL"
+            android:parentActivityName=".attractions.Attractions"
+            android:screenOrientation="portrait"
+            android:theme="@style/Attreve">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".attractions.Attractions" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Afishal" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".attractions.naug"
+            android:label="INAUGURATION EVENT"
+            android:parentActivityName=".attractions.Attractions"
+            android:screenOrientation="portrait"
+            android:theme="@style/Attreve">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".attractions.Attractions" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.Inaug" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="$Notifs$MyFirebaseMessagingService"
+            android:permission="">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="$Notifs$MyFirebaseInstanceIdService"
+            android:permission="">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

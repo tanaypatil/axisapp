@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "915194116711",
+    "firebase_url": "https://axis16-6be81.firebaseio.com",
+    "project_id": "axis16-6be81",
+    "storage_bucket": "axis16-6be81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915194116711:android:5721a1905a5c1d37",
+        "android_client_info": {
+          "package_name": "com.developer.tanaypatil.axis2016"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915194116711-6n6cjbpp85c4r94qe75uln3cv7mpeig2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developer.tanaypatil.axis2016",
+            "certificate_hash": "43283771d69f72099cc811aa5e8776e767a5fbc3"
+          }
+        },
+        {
+          "client_id": "915194116711-vkblrppl5di5nt0rol8qn1mjpe6udi21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAep8mtqUBADP7MEVRgmhAyOjs_v8D4CIk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915194116711-vkblrppl5di5nt0rol8qn1mjpe6udi21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

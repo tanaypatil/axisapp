@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ebkgappblue"
+    tools:context="com.developer.tanaypatil.axis2016.team.Core">
+
+    <!--main content-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/tcolorPrimaryDark"></LinearLayout>
+
+        <!--eve details-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/divider"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tresi"
+                android:textColor="@color/tcolorPrimaryDark"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="20sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/divider"/>
+        </LinearLayout>
+
+        <!--conT-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:weightSum="1"
+            android:background="@drawable/white_ripple"
+            android:clickable="true"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp"
+            android:id="@+id/sumedh">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/core7"
+                android:layout_weight="0.3"
+                android:textSize="22sp"
+                android:textColor="@color/acolorPrimaryDark"
+                android:layout_gravity="center_vertical" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:src="@drawable/ic_email_24dp"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <!--contacts-->
+
+        <!--con head-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="8dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/divider"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/core"
+                android:textColor="@color/tcolorPrimary"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="20sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/divider"/>
+        </LinearLayout>
+
+        <!--con1-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:weightSum="1"
+            android:background="@drawable/white_ripple"
+            android:clickable="true"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp"
+            android:id="@+id/amit">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/core1"
+                android:layout_weight="0.3"
+                android:textSize="22sp"
+                android:textColor="@color/acolorPrimaryDark"
+                android:layout_gravity="center_vertical" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:src="@drawable/ic_email_24dp"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+        <!--con2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:weightSum="1"
+            android:background="@drawable/white_ripple"
+            android:clickable="true"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp"
+            android:id="@+id/anoushka">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/core2"
+                android:layout_weight="0.3"
+                android:textSize="22sp"
+                android:textColor="@color/acolorPrimaryDark" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:src="@drawable/ic_email_24dp"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+        <!--con3-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:weightSum="1"
+            android:background="@drawable/white_ripple"
+            android:clickable="true"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp"
+            android:id="@+id/harshal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/core3"
+                android:layout_weight="0.3"
+                android:textSize="22sp"
+                android:textColor="@color/acolorPrimaryDark" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:src="@drawable/ic_email_24dp"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+        <!--con4-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:weightSum="1"
+            android:background="@drawable/white_ripple"
+            android:clickable="true"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:id="@+id/himanshu">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/core4"
+                android:layout_weight="0.3"
+                android:textSize="22sp"
+                android:textColor="@color/acolorPrimaryDark" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:src="@drawable/ic_email_24dp"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+        <!--con5-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:weightSum="1"
+            android:background="@drawable/white_ripple"
+            android:clickable="true"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp"
+            android:id="@+id/jp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/core5"
+                android:layout_weight="0.3"
+                android:textSize="22sp"
+                android:textColor="@color/acolorPrimaryDark" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:src="@drawable/ic_email_24dp"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+        <!--con6-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:weightSum="1"
+            android:background="@drawable/white_ripple"
+            android:clickable="true"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp"
+            android:id="@+id/vivek">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/core6"
+                android:layout_weight="0.3"
+                android:textSize="22sp"
+                android:textColor="@color/acolorPrimaryDark" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:src="@drawable/ic_email_24dp"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

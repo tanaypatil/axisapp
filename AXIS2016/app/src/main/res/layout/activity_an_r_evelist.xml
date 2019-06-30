@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".events.anr.AnR_evelist">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:id="@+id/anr_title"
+        android:padding="8dp"
+        android:background="@color/ecolorPrimary"
+        android:elevation="4dp">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/cogs"
+            android:layout_alignTop="@+id/anr_label"
+            android:layout_toLeftOf="@+id/anr_label"
+            android:layout_toStartOf="@+id/anr_label"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="2dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AnR"
+            android:textSize="21sp"
+            android:id="@+id/anr_label"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/anr_rec"
+        android:layout_below="@+id/anr_title"
+        android:layout_marginTop="6dp">
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
